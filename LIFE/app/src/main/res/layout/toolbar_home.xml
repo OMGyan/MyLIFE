@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@color/myYellow"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_qiandao"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/icon_home_signed"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:drawablePadding="4dp"
+        android:text="签到"/>
+    <ImageView
+        android:paddingRight="20dp"
+        android:src="@drawable/icon_logo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/search"
+        android:src="@drawable/icon_search_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

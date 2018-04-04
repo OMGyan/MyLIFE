@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#fff"
+    >
+    <ImageView
+        android:id="@+id/iv"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_title"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:text="家用迷你便携榨汁杯"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_tip"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_above="@id/tv_title"
+        android:text="健康果蔬汁喝起来"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignRight="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_above="@id/tv_tip"
+        android:id="@+id/view1"
+        android:background="#000"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignRight="@id/tv_title"
+        android:layout_width="200dp"
+        android:layout_height="0.5dp"/>
+    <View
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_below="@id/tv_title"
+        android:id="@+id/view2"
+        android:background="#000"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignRight="@id/tv_title"
+        android:layout_width="200dp"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_alignRight="@id/view2"
+        android:layout_alignLeft="@id/view2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view2"
+        android:id="@+id/tv_money"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="促销价Y88.88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

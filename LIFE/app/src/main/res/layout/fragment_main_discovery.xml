@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/myYellow"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/discovery_toolBar"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/toolbar_bg"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:drawablePadding="6dp"
+                android:drawableLeft="@drawable/icon_search_box"
+                android:gravity="left|center_vertical"
+                android:text="找到美好生活"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rb_column"
+            android:text="栏目"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="1dp"
+            android:background="#4000"
+            android:layout_height="20dp"/>
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb_single"
+            android:text="单品"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <View
+        android:id="@+id/scrollTip"
+        android:layout_width="wrap_content"
+        android:background="#f4e40a"
+        android:layout_height="3dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1000"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
