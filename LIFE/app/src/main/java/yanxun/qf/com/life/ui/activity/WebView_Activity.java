@@ -22,7 +22,7 @@ import yanxun.qf.com.life.R;
 /**
  * Created by Administrator on 2017/6/3.
  */
-
+//webview工具类activity
 public class WebView_Activity extends AppCompatActivity{
 
     private TextView tv_title,tv_back;
