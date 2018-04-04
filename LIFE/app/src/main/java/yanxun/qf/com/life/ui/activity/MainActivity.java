@@ -20,7 +20,7 @@ import yanxun.qf.com.life.R;
 import yanxun.qf.com.life.ui.fragment.Main_DiscoveryFragment;
 import yanxun.qf.com.life.ui.fragment.Main_HomeFragment;
 import yanxun.qf.com.life.ui.fragment.Main_PersonFragment;
-
+//yanxun first time use git version control
 public class MainActivity extends AppCompatActivity {
     //yanxun
     private int[] selector = {R.drawable.tab_item_home_selector,R.drawable.tab_item_discovery_selector,R.drawable.tab_item_personal_selector};
